@@ -3,7 +3,7 @@ function takeANumber(array, name) {
   //var currentIndex = parseInt(array.length);
 
 array.push(name);
-var currentIndex = parseInt(array.length);
+var currentIndex = (array.length);
 string = "Welcome, " + name + ". You are number " + currentIndex + " in line.";
   return string;
 }
